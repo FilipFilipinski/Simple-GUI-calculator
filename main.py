@@ -9,7 +9,7 @@ def press(num):
     equation.set(expression)
 
 
-def equalpress():
+def expresses():
     try:
         global expression
         total = str(eval(expression))
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     divide = Button(gui, text=' / ', fg='black', bg='red', command=lambda: press("/"), height=1, width=7)
     divide.grid(row=5, column=3)
 
-    equal = Button(gui, text=' = ', fg='black', bg='red', command=equalpress, height=1, width=7)
+    equal = Button(gui, text=' = ', fg='black', bg='red', command=expresses, height=1, width=7)
     equal.grid(row=5, column=2)
 
     clear = Button(gui, text='Clear', fg='black', bg='red', command=clear, height=1, width=7)
