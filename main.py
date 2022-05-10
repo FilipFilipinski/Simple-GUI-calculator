@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
     gui.title("Simple Calculator")
 
-    gui.geometry("270x150")
+    gui.geometry("470x250")
 
     equation = StringVar()
 
