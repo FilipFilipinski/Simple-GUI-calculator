@@ -37,7 +37,7 @@ def clear():
 if __name__ == "__main__":
     gui = Tk()
 
-    gui.configure(background="light green")
+    gui.configure(background="white")
 
     gui.title("Simple Calculator")
 
