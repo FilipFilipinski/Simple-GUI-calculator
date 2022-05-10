@@ -15,8 +15,8 @@ def equalpress():
         total = str(eval(expression))
         equation.set(total)
         expression = ""
-    except:
-        equation.set(" error ")
+    except SyntaxError:
+        equation.set('error')
         expression = ""
 
 
