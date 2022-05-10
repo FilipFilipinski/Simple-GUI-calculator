@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     gui.configure(background="white")
 
-    gui.title("Simple Calculator")
+    gui.title("Python Calculator")
 
     gui.geometry("470x250")
 
